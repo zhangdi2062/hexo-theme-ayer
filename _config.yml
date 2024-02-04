@@ -4,15 +4,15 @@ menu:
   归档: /archives
   分类: /categories
   标签: /tags
-  旅行: /tags/旅行/
-  摄影: http://shenyu-vip.lofter.com
-  友链: /friends
-  关于我: /2019/about
+  # 旅行: /tags/旅行/
+  # 摄影: http://shenyu-vip.lofter.com
+  # 友链: /friends
+  # 关于我: /2019/about
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
 subtitle:
-  enable: true # 是否开启动效
+  enable: false # 是否开启动效
   text: 面朝大海，春暖花开 # 显示的文字
   text2: 愿你一生努力，一生被爱 # 滚动播放，如果不需要可以留空
   text3: 想要的都拥有，得不到的都释怀 # 最多支持三段文字
@@ -30,7 +30,7 @@ logo: /images/ayer-side.svg
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
   enable: true
-  path: /images/cover1.jpg # /source/images目录下附送多张美图，可更换
+  path: /images/cover4.jpg # /source/images目录下附送多张美图，可更换
   logo: false #/images/ayer.svg，如果不要直接设置成false
 
 # 页面顶部进度条
@@ -82,7 +82,7 @@ word_count:
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: "请我喝杯咖啡吧~"
+reward_wording: "请我喝杯奶茶吧~"
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
 alipay: /images/alipay.jpg
 # 微信二维码图片地址
@@ -229,16 +229,16 @@ twikoo:
 # 首页广告配置
 # 可以根据需要自行增加ad_3，ad_4...，留空则不显示，建议图片和url不要带ad等关键词，否则可能会被adblock等插件屏蔽
 ads:
-  ad_1:
-    title: 云服务器限时秒杀
-    img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5ccc.jpg
-    url: https://curl.qcloud.com/kvO7hb43
-    width: 300
-  ad_2:
-    title: vultr优惠vps
-    img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5cd7.png
-    url: https://www.vultr.com/?ref=8630075
-    width: 300
+  # ad_1:
+  #   title: 云服务器限时秒杀
+  #   img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5ccc.jpg
+  #   url: https://curl.qcloud.com/kvO7hb43
+  #   width: 300
+  # ad_2:
+  #   title: vultr优惠vps
+  #   img: https://pic.imgdb.cn/item/62174b452ab3f51d912a5cd7.png
+  #   url: https://www.vultr.com/?ref=8630075
+  #   width: 300
 
 # 网站开启加密访问，密码可设置任何字符
 lock:
